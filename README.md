@@ -5,3 +5,9 @@
 num=int(input("Enter a number :"))
 if num>=0:
     print("number is positive")
+# to print a number is positive or negative
+num=int(input("Enter a number:"))
+if num >= 0:
+    print("the number is positive")
+else:
+    print("the number is negative")
