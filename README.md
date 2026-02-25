@@ -13,10 +13,22 @@ else:
     print("the number is negative")
 
 #to print a number is posituve negative or zero
-num=int(input("enter a number :"))
+num=int(input("enter a number 
 if num>0:
     print("number is positive")
 elif num<0:
+    print("number is negative")
+else:
+    print("number is zero")
+
+#nested if statement 
+num=int(input("enter a number:")
+if num>0:
+    if num%2==0:
+        print("number is positive and even")
+    else:
+        print("number is positive and odd")
+else:
     print("number is negative")
 else:
     print("number is zero")
